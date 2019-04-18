@@ -1,0 +1,128 @@
+html body{
+    background-color: #272727;
+    margin: 0;
+    padding: 0;
+}
+.container-fluid.home{
+    font-family: 'Nunito', sans-serif;
+    background-color: #272727;
+    widows: 100vh;
+    height: 100vh;
+    color: #CACACA;
+}
+.container-fluid.home h1{
+    font-size: 2rem;
+    text-align: center;
+    color: #CACACA;
+    font-weight: 7  00;
+}
+.container-fluid.home #paragraphe{
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 20px;
+    color: #CACACA;
+}
+
+.container-fluid.home .container.bloc{
+    width: 38%;
+    margin: 0 auto;
+    background-color: #595959;
+    border-radius: 36px;
+    padding: 3px ;
+}
+#notice{
+    text-align: center;
+    color: #7A7A7A;
+    font-size: 0.8rem;
+}
+#notice span {
+    color: #fff;
+    text-decoration: underline;
+    font-weight: 600;
+}
+#notice span:hover{
+    cursor: pointer;
+}
+.container-fluid.home .container.bloc .form-row{
+    width: 500px;
+    margin: 0 auto;
+}
+.container-fluid.home input{
+    background-color: #919191;
+    border: none;
+    outline: none;  
+}
+/* Input spin button un and down */
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+.container-fluid.home ::placeholder{
+    color: #BBBBBB;
+}
+
+.container-fluid.home #send-code{
+    background-color: #FFFFFF;
+    width: 18rem;
+    border-radius: 5px;
+    color: #565656;
+    font-family: 'Nunito';
+    font-weight: 700;
+}
+
+/* R E G I S T E R */
+#return{
+    color: #CACACA;
+}
+.container-fluid.home h1{
+    font-weight: 800;
+}
+.container-fluid.home .container.bloc.register{
+    padding: 15px;
+}
+.container-fluid.home .container.bloc.register label{
+    font-weight: 700;
+}
+#infosperso{
+    text-align: center;
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 700;
+}
+
+#email-password{
+    width: 100px;
+}
+#input-left{
+    margin: 0 19.938px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.gj-datepicker-md [role=right-icon] {
+    display: none;
+}
+#datepicker{
+    font-family: 'Nunito';
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+}
+#notice-code {
+    font-size: 0.7rem;
+    text-align: center;
+    color: rgb(194, 194, 194);
+    font-weight: 600;
+}
+#notice-code:hover{
+    color: #fff;
+    cursor: pointer;
+}
+#error-code{
+    font-size: 1rem;
+    text-align: center;
+    color: #F55A5A;
+    font-weight: 600;
+}
